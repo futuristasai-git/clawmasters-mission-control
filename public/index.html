@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Clawmasters Mission Control</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <aside class="rail">
+        <div class="brand">
+          <img class="brand-logo" src="/assets/clawmasters-logo.jpeg" alt="Clawmasters" />
+          <div>
+            <strong>Clawmasters</strong>
+            <span>Mission Control Futuristas</span>
+          </div>
+        </div>
+        <nav id="nav"></nav>
+      </aside>
+
+      <main class="shell">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Sistema de Aprendizado OpenClaw</p>
+            <h1 id="page-title">Painel Geral</h1>
+          </div>
+          <div class="status-row">
+            <span id="mode-pill" class="pill cyan">carregando</span>
+            <span id="health-pill" class="pill green">MC OK</span>
+          </div>
+        </header>
+
+        <section id="view"></section>
+      </main>
+    </div>
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

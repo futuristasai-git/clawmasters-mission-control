@@ -1,0 +1,6 @@
+{
+  "name": "Content Creator OS",
+  "agents": ["Chief of Staff", "Research Scout", "Script Writer", "Editor", "Publisher"],
+  "pipelines": ["Ideas", "Research", "Script", "Review", "Published"],
+  "cron": ["daily trend scan", "weekly newsletter draft", "monthly content audit"]
+}

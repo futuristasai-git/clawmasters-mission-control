@@ -1,0 +1,18 @@
+{
+  "openai:gpt-4.1": {
+    "input": 2,
+    "output": 8,
+    "cacheRead": 0.5,
+    "cacheWrite": 0,
+    "_unit": "USD per 1M tokens",
+    "_note": "Example only. Copy to ~/.openclaw/workspace/config/model-prices.json and adjust to your providers."
+  },
+  "ollama:llama3.2": {
+    "input": 0,
+    "output": 0,
+    "cacheRead": 0,
+    "cacheWrite": 0,
+    "_unit": "USD per 1M tokens",
+    "_note": "Local Ollama models usually have no direct API token cost."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Research Lab OS",
+  "agents": ["Research Lead", "Source Scout", "Analyst", "Writer", "Fact Checker"],
+  "pipelines": ["Question", "Sources", "Synthesis", "Draft", "Published"],
+  "cron": ["daily source scan", "weekly literature digest", "monthly insight report"]
+}

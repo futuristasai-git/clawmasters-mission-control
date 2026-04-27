@@ -1,0 +1,25 @@
+{
+  "name": "clawmasters-mission-control",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Open source Mission Control for learning and operating OpenClaw systems.",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "check": "node server/check.js",
+    "check:syntax": "node --check server/server.js && node --check server/check.js && node --check public/app.js",
+    "check:security": "bash scripts/security-scan.sh"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "openclaw",
+    "mission-control",
+    "agents",
+    "clawmasters",
+    "dashboard"
+  ],
+  "license": "MIT"
+}

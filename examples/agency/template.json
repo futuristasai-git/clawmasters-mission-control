@@ -1,0 +1,6 @@
+{
+  "name": "AI Agency OS",
+  "agents": ["Account Manager", "Strategist", "Builder", "QA", "Reporter"],
+  "pipelines": ["Lead", "Proposal", "Build", "Review", "Delivered"],
+  "cron": ["daily client update", "weekly delivery review", "monthly metrics report"]
+}
